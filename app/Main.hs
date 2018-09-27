@@ -1,4 +1,3 @@
-{-# LANGUAGE OverloadedStrings #-}
 module Main where
 import Polyndrome
 import qualified Data.Text as T

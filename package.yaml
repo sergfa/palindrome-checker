@@ -22,7 +22,8 @@ description:         Please see the README on GitHub at <https://github.com/serg
 dependencies:
 - base >= 4.7 && < 5
 - text
-
+default-extensions: 
+   - OverloadedStrings
 library:
   source-dirs: src
   
@@ -36,7 +37,6 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - palindrome-checker
-    - text
 
 tests:
   palindrome-checker-test:
@@ -48,4 +48,3 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - palindrome-checker
-    - text
